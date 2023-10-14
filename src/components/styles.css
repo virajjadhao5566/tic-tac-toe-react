@@ -1,0 +1,17 @@
+.row{
+    display: flex;
+}
+
+.grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    font-size: larger;
+    font-weight: bolder;
+    width: 5rem;
+    height: 5rem;
+}
