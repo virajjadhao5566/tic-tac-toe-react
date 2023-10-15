@@ -1,11 +1,11 @@
 import React from "react"
-import Board from "./components/Board"
+import Game from "./components/Game"
 
 function App() {
   return (
     <>
       <h1>hello</h1>
-      <Board/>
+      <Game/>
     </>
   )
 }
