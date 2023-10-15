@@ -1,13 +1,9 @@
 import React, { useState } from 'react'
 import './styles.css'
-const Square = () => {
-    const [variable,setVariable] = useState("")
-    const changeVariable = () =>{
-        setVariable("X")
-    }
+const Square = ({value,onSquareClick}) => {
     return (
         <div>
-            <button onClick={changeVariable} className='square btn'>{variable}</button>
+            <button onClick={onSquareClick} className='square btn'>{value}</button>
         </div>
     )
 }
